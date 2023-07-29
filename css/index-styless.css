@@ -180,45 +180,33 @@ h1{
     transition: 1.5s;
 }
 
-.programacion{
-    width: 100%;
-    height: 70px;
-    margin-left: 30%;
-    background-image: url("/Img/programacion.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
 .card-area h3{
     font-size: 1rem;
     padding: 2%;
 }
 
-.db{
+.iconos-area{
     width: 100%;
     height: 70px;
     margin-left: 30%;
-    background-image: url("/Img/DB.svg");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.programacion{
+    background-image: url("/Img/programacion.svg");
+}
+
+.db{
+    background-image: url("/Img/DB.svg");
 }
 
 .diseño{
-    width: 100%;
-    height: 70px;
-    margin-left: 30%;
     background-image: url("/Img/diseño.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .soporte-it{
-    width: 100%;
-    height: 70px;
-    margin-left: 30%;
     background-image: url("/Img/soporteit.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .info-area{
@@ -276,9 +264,6 @@ span{
     font-weight: bolder;
     font-size: 1.2rem;
 }
-
-
-
 
 #contacto{
     width: 100%;
@@ -355,3 +340,184 @@ footer{
     color: #ffff;
     display: flex;
 }
+
+@media (max-width: 1100px) {
+
+    #nosotros {
+        height: 600px;
+    }
+
+    .espacio-cards-areas {
+        width: 85%;
+        margin-left: 10%;
+    }
+
+    .info-contacto {
+        width: 80%;
+    }
+
+    .card-contacto {
+        width: 25%;
+    }
+
+}
+
+@media (max-width: 900px){
+
+    #nosotros {
+        height: 800px;
+    }
+
+    .espacio-info {
+        height: 450px;
+    }
+
+    #areas{
+        height: 3400px;
+    }
+
+    .card-area h3{
+        font-size: 0.9rem;
+    }
+
+    .info-area{
+        height: 2000px;
+    }
+    
+    .area-detalle{
+        width: 59%;
+        height: 400px;
+    }
+
+}
+
+
+@media (max-width: 800px){
+    
+    .card-area h3{
+        font-size: 0.8rem;
+    }
+    
+    .iconos-area{
+        margin-left: 20%;
+    }
+    
+    .card-contacto{
+        width: 27%;
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (max-width: 750px){
+
+    .conozcanos{
+        width: 25%;
+        height: 60px;
+        margin-top: 2%;
+        font-size: 1rem;
+    }
+}
+
+
+
+@media (max-width: 650px){
+
+    #areas{
+        height: 4400px;
+    }
+
+    .espacio-cards-areas{
+        width: 70%;
+        height: 1100px;
+        margin-left: 30%;
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-area{
+        width: 50%;
+        height: 250px;
+        padding: 10%;
+    }
+
+    .card-area h3{
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 620px){
+
+    .conozcanos{
+        width: 30%;
+        height: 70px;
+        margin-top: 2%;
+        font-size: 0.9rem;
+    }
+
+    .espacio-info {
+        height: 600px;
+    }
+
+    #nosotros {
+        height: 900px;
+    }
+
+    .info-area{
+        height: 2300px;
+    }
+    
+    .area-detalle{
+        width: 60%;
+        height: 500px;
+    }
+
+    #contacto{
+        height: 1000px;
+    }
+    
+    .info-contacto{
+        width: 60%;
+        height: 700px;
+        margin-top: 5%;
+        margin-left: 30%;
+        flex-direction: column;
+    }
+
+    .card-contacto{
+        width: 50%;
+        height: 200px;
+        padding: 8%;
+    }
+}
+
+
+@media (max-width: 500px){
+
+    #nosotros {
+        height: 1200px;
+    }
+
+    #areas{
+        height: 5200px;
+    }
+
+    .info-area{
+        height: 2600px;
+    }
+    
+    .area-detalle{
+        width: 60%;
+        height: 500px;
+    }
+
+    .card-contacto{
+        width: 60%;
+        height: 200px;
+        padding: 8%;
+    }
+}
+
